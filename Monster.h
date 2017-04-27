@@ -50,6 +50,7 @@ public:
 	// Assumes srand() has already been called
 	static int getRandomNumber(int min, int max);
 	static Monster getRandomMonster();
-	//void adjustForLevel(Player &player); //WORK IN PROGRESS
+	void attackMonster(Monster &monster, Player &player);
+	void attackPlayer(Monster &monster, Player &player);
 
 };
